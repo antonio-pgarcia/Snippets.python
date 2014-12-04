@@ -42,6 +42,7 @@ def shufflep(r,l1,l2):
 		l2 += [fst(t)]
 		return shufflep(myrandom(0,llen-1,r),snd(t),l2)
 
+# -- | The main entry point.
 def main():
 	v = [i for i in range(1,100) ]
 	print "List shuffle!"
