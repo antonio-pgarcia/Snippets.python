@@ -5,7 +5,7 @@ import random
 def fst(l):
     return l[0]
 
-# -- | Emulation of Haskell fst (Lisp cdr)
+# -- | Emulation of Haskell snd (Lisp cdr)
 def snd(l):
     return l[1]
 
